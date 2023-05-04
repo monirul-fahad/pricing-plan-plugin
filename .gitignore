@@ -1,0 +1,9 @@
+node_modules
+
+# local env files
+.env
+
+# vercel
+.vscode
+yarn.lock
+package-lock.json

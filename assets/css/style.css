@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  @apply tap-text-font-color tap-font-bold;
+}
+body {
+  @apply tap-text-font-color-light;
+}
+h1 {
+  @apply tap-text-5xl;
+}
+h2 {
+  @apply tap-text-4xl;
+}
+h3 {
+  @apply tap-text-3xl;
+}
+h4 {
+  @apply tap-text-2xl;
+}
+h5 {
+  @apply tap-text-xl;
+}
+h6 {
+  @apply tap-text-lg;
+}
+
+
