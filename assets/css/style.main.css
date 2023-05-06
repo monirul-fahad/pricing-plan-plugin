@@ -562,6 +562,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.tap-my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .tap-mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -572,6 +577,10 @@ video {
 
 .tap-mt-5 {
   margin-top: 1.25rem;
+}
+
+.tap-mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .tap-flex {
@@ -587,20 +596,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.tap-grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.tap-grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.tap-grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .tap-grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.tap-grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .tap-items-center {
@@ -611,12 +612,12 @@ video {
   gap: 0.25rem;
 }
 
-.tap-gap-6 {
-  gap: 1.5rem;
-}
-
 .tap-gap-4 {
   gap: 1rem;
+}
+
+.tap-gap-6 {
+  gap: 1.5rem;
 }
 
 .tap-rounded-lg {
