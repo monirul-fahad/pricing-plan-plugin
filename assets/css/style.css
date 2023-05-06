@@ -33,4 +33,14 @@ h6 {
   @apply tap-text-lg;
 }
 
+.tap__price-table3--features tr{
+  @apply tap-border-t
+}
+.tap__price-table3--features tr td:not(:first-child){
+  @apply tap-text-center tap-px-3 tap-py-4
+}
+.tap__price-table3--features tr td:first-child{
+  @apply tap-pr-3 tap-py-4
+}
+
 

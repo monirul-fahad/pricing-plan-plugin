@@ -552,9 +552,9 @@ video {
   top: 53px;
 }
 
-.tap-my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.tap-my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .tap-my-4 {
@@ -562,13 +562,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.tap-my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .tap-mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.tap-mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .tap-mb-7 {
@@ -579,8 +578,8 @@ video {
   margin-top: 1.25rem;
 }
 
-.tap-mb-3 {
-  margin-bottom: 0.75rem;
+.tap-mt-7 {
+  margin-top: 1.75rem;
 }
 
 .tap-flex {
@@ -589,6 +588,18 @@ video {
 
 .tap-grid {
   display: grid;
+}
+
+.tap-hidden {
+  display: none;
+}
+
+.tap-w-1\/4 {
+  width: 25%;
+}
+
+.tap-w-full {
+  width: 100%;
 }
 
 .-tap-rotate-90 {
@@ -606,6 +617,10 @@ video {
 
 .tap-items-center {
   align-items: center;
+}
+
+.tap-justify-center {
+  justify-content: center;
 }
 
 .tap-gap-1 {
@@ -637,6 +652,10 @@ video {
   border-width: 1px;
 }
 
+.tap-border-t {
+  border-top-width: 1px;
+}
+
 .tap-border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(52 100 224 / var(--tw-border-opacity));
@@ -650,6 +669,10 @@ video {
 .tap-bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
+}
+
+.tap-p-10 {
+  padding: 2.5rem;
 }
 
 .tap-p-9 {
@@ -684,6 +707,11 @@ video {
 .tap-py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.tap-py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .tap-py-5 {
@@ -818,6 +846,24 @@ h6 {
   line-height: 1.75rem;
 }
 
+.tap__price-table3--features tr {
+  border-top-width: 1px;
+}
+
+.tap__price-table3--features tr td:not(:first-child) {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.tap__price-table3--features tr td:first-child {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 0.75rem;
+}
+
 .hover\:tap-border-tertiary:hover {
   --tw-border-opacity: 1;
   border-color: rgb(146 148 150 / var(--tw-border-opacity));
@@ -837,12 +883,20 @@ h6 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .sm\:tap-grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .sm\:tap-gap-6 {
     gap: 1.5rem;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:tap-block {
+    display: block;
+  }
+
   .lg\:tap-grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
